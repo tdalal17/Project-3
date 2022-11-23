@@ -5,21 +5,21 @@ function initMap() {
   });
 
   new google.maps.Marker({
-    position: { lat: 42.058890, lng: -87.749071 },
+    position: { lat:42.0597222, lng: -87.7563554,17 },
     map,
-    title: "Mall!",
+    title: "Niles North",
   });
   
   new google.maps.Marker({
-    position: { lat: 42.009895, lng: -87.713161 },
+    position: { lat: 42.0633881, lng:-87.8824113 },
     map,
-    title: "Town Center!",
+    title: "Oakton Community College!",
   });
 
   new google.maps.Marker({
-    position: { lat: 42.049187, lng: -87.672943 },
+    position: { lat:41.8474754, lng: -87.64679},
     map,
-    title: "Big Park!",
+    title: "IIT",
   });
 }
 
