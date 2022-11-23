@@ -1,32 +1,26 @@
-$(document).ready(function(){
-	$('.slider').bxSlider();
-		
-});
-
-var map;
-const iit = {lat:41.835, lng:-87.627};
-const polska = {lat:52, lng:21};
-const goodwill = {lat:41.88284462952575, lng:-87.65705415769303};
-
 function initMap() {
-	map = new google.maps.Map(document.getElementById("map"), {
-		zoom: 15, center:iit,
-	});
-	const marker = new google.maps.Marker({
-		position: iit, map:map,
-	});
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 42.058890, lng: -87.749071 },
+    zoom: 12,
+  });
+
+  new google.maps.Marker({
+    position: { lat: 42.058890, lng: -87.749071 },
+    map,
+    title: "Mall!",
+  });
+  
+  new google.maps.Marker({
+    position: { lat: 42.009895, lng: -87.713161 },
+    map,
+    title: "Town Center!",
+  });
+
+  new google.maps.Marker({
+    position: { lat: 42.049187, lng: -87.672943 },
+    map,
+    title: "Big Park!",
+  });
 }
 
-function ultraZoom() {
-	map.setZoom(30);
-}
-
-function goToPoland() {
-	map.setCenter(polska);
-	map.setZoom(6);
-}
-
-function goToGoodwill() {
-	map.setCenter(goodwill);
-	map.setZoom(20);
-}
+window.initMap = initMap;
