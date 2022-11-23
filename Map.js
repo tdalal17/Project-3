@@ -5,7 +5,7 @@ function initMap() {
   });
 
   new google.maps.Marker({
-    position: { lat:42.0597222, lng: -87.7563554,17 },
+    position: { lat:42.0597222, lng: -87.7563554},
     map,
     title: "Niles North",
   });
