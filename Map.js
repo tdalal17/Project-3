@@ -1,4 +1,4 @@
-let map;: google.maps.Map;
+let map; google.maps.Map;
 
 function initMap(): void {
   var centerMap = {
