@@ -17,7 +17,7 @@ function initMap() {
   });
 
   new google.maps.Marker({
-    position: { lat:41.8349016, lng: 87.629889},
+    position: { lat: 41.8348731, lng: -87.6291946},
     map,
     title: "IIT",
   });
