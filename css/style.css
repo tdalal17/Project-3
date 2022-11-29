@@ -4,6 +4,7 @@ body{
   color: rgb(9, 0, 0);
   font-size: 1em;
   line-height: 1.5;
+  
 }
 nav{
   background-color:#bbc454;
@@ -50,19 +51,25 @@ iframe{
 h1, h2 {
   text-align: center;
   top: auto;
-  width: auto;
+  width: auto; 
+  position: relative;
+
 }
 h3, h4 {
   text-align: center;
   top: auto;
   width: auto;
+  position: relative;
+ 
+  
 }
 h1{
 	background-color: #156e94;
 }
 p,ul,ol,li{
 	text-align: center;
-	position: relative;
+	position: center;
+
 }
 section{
   box-sizing: border-box;
@@ -79,7 +86,21 @@ footer p a{
   height: 500px;
   right: 25%;
   border: solid black 5px;
-  border-radius: 10px;}
-Id ="resume"{
+  border-radius: 10px;
+}
+div.container {
+  text-align: center;
+}
+.resume body{
+text-align: justify;
+position: relative;
 
 }
+ul.myUL {
+  text-align: justify;
+  position: relative;
+  
+}
+
+  
+
