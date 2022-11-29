@@ -4,6 +4,8 @@ body{
   color: rgb(9, 0, 0);
   font-size: 1em;
   line-height: 1.5;
+  padding: auto;
+  margin: auto;
   
 }
 nav{
@@ -30,8 +32,10 @@ nav ul li a{
   color: #0b0d08;
 }
 ul li {
+  padding: auto;
+  margin: auto;
   list-style-type: none;
-  text-align: center;
+  text-align: left;
 }
 
 img{
@@ -49,14 +53,15 @@ iframe{
   box-sizing: border-box;
 }
 h1, h2 {
-  text-align: center;
+  text-align: left;
   top: auto;
   width: auto; 
   position: relative;
 
+
 }
 h3, h4 {
-  text-align: center;
+  text-align: left;
   top: auto;
   width: auto;
   position: relative;
@@ -68,8 +73,9 @@ h1{
 }
 p,ul,ol,li{
 	text-align: center;
-	position: center;
-
+  top: auto;
+  width: auto;
+  position: relative;
 }
 section{
   box-sizing: border-box;
@@ -89,18 +95,20 @@ footer p a{
   border-radius: 10px;
 }
 div.container {
-  text-align: center;
+  text-align: left;
 }
 .resume body{
-text-align: justify;
+text-align: center;
 position: relative;
 
 }
-ul.myUL {
-  text-align: justify;
-  position: relative;
-  
+.myUL {
+  text-align: center;
+}
+#title{
+  text-align: center;
 }
 
-  
-
+.place{
+  text-align: center;
+}
