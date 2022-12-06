@@ -112,3 +112,20 @@ position: relative;
 .place{
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .place {
+    padding: auto;
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .resume {
+    padding: auto;
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+}
